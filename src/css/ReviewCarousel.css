@@ -1,0 +1,85 @@
+.Review-main-carousel-container {
+    width: 100%;
+    height: 100%;
+    background-color: #cfcfcf;
+    margin-bottom: 0px;
+    
+    padding: 10px auto;
+}
+
+.Review-slide-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Review-slide-container img {
+    width: 350px;
+    max-width: 350px;
+    height: 300px;
+    min-height: 300px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+.Review-slides-container {
+    width: 350px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.Review-carousel-caption {
+    color: black;
+}
+
+.Rcarousel-title {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Review-main-carousel-container .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px; /* 슬라이드 간의 간격 설정 */
+}
+
+.Review-main-carousel-container .slick-list {
+    
+}
+
+.slick-prev, .slick-next {
+    z-index: 1;
+}
+
+.Rcarousel-title{
+    
+    margin: 0;
+    position: relative;
+}
+
+.nav-button{
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    align-items: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: blueviolet;
+    &:hover{
+        color: purple;
+        text-decoration: underline;    
+    }
+}

@@ -1,0 +1,90 @@
+.container {
+    position: relative;
+    
+}
+
+.pagination-dots {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.dot-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    
+    
+}
+
+.pagination-text {
+    font-size: 20px;
+    color: gray;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lightgray;
+    transition: background-color 0.5s;
+}
+
+.dot-container.active .pagination-text {
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    z-index: 200;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+}
+
+.imageWrapper {
+    text-align: center;
+    padding: 0;
+    
+}
+
+.Brand-title-content4, .Brand-title-content5, .Brand-title-content6 {
+    
+    margin-top: 30vh;
+    text-align: center;
+    color: white;
+}
+
+.Brand-title4, .Brand-title5, .Brand-title6 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.Brand-subtitle4, .Brand-subtitle5, .Brand-subtitle6 {
+    font-size: 1.5rem;
+}
+
+.first{
+    background-image: url(/src/assets/wp4673442-audience-wallpapers.jpg);
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.second{
+    background-image: url(/src/assets/pngtree-view-through-airplane-window-at-sunset-picture-image_2779032.jpg);
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.third{
+    background-image: url(/src/assets/ceoss.jpg);
+    object-fit: cover;
+    height: 100vh;
+}

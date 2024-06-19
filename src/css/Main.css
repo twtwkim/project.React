@@ -1,0 +1,152 @@
+.MainDiv {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.FirstDiv {
+    width: 100%;
+    
+    text-align: center;
+}
+
+.ImageWrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+}
+
+.ImageWrapper img {
+    position: absolute;
+    width: 45%;
+    height: auto;
+}
+
+.img1 {
+    left: 10%;
+    top: 0;
+}
+
+.img2 {
+    right: 10%;
+    bottom: 0;
+}
+.img3 {
+    right: 10%;
+    top: 0;
+}
+
+.img4 {
+    left: 10%;
+    bottom: 0;
+}
+.img5 {
+    left: 10%;
+    bottom: 0;
+    
+}
+
+.img6 {
+    right: 10%;
+    top: 0;
+}
+
+.Title-content{
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+    text-align: right;
+    
+}
+
+.Title {
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.Subtitle{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.Title-content3{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    text-align: right;
+    
+}
+
+.Title3 {
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.Subtitle3{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.Title-content2{
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.Title2 {
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.Subtitle2{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+
+.SecondDiv {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(228, 228, 228);
+}
+
+.ThirdDiv {
+    width: 100%;    
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(0);
+    }
+}
+
+

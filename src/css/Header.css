@@ -1,0 +1,53 @@
+.container{
+    position: fixed;    
+}
+
+.HeaderDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+}
+
+.HeaderDiv.whiteBackground {
+    background-color: rgb(250, 250, 250);
+}
+
+.HeaderDiv .navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HeaderDiv .navigation .nav-link {
+    text-decoration: none;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    &:hover{
+        color: #7950f2;
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        transition: 0.1s;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+    }
+    
+}
+.separator {
+    height: 4px;
+    background-color: white; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.scrolled {
+    background-color: white;
+  }

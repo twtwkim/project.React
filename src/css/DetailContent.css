@@ -1,0 +1,157 @@
+.product-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.main-content {
+    flex: 1;
+    max-width: 65%;
+    height: 60vh;
+    margin-left: 30px;
+}
+
+.sidebar {
+    margin-top: 100px;
+    width: 25%;
+    position: fixed;
+    top: 20px;
+    right: 50px;
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.sidebar-title {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.cart {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart li {
+    margin-bottom: 10px;
+}
+
+.cart .cart-people {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.sidebar-price {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tour-days {
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+}
+
+.flight-info {
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+    align-items: center;
+}
+
+.product-detail {
+    max-width: 65%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.product-detail-menu {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.product-detail-menu button {
+    margin: 0;
+    padding: 10px 0;
+    width: 25%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: rgb(121, 121, 121);
+    background-color: rgb(184, 184, 184);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.product-detail-menu button:hover {
+    background-color: white;
+}
+
+.product-detail-menu button.active {
+    background-color: white;
+    border-bottom: none;
+    color: black;
+}
+
+.product-detail-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: left;
+    max-height: 30vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-detail-content.expanded {
+    max-height: none;
+}
+
+.show-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #e0e1e2;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.show-more::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.show-more:hover {
+    background-color: #e9ecef;
+}

@@ -1,0 +1,53 @@
+.ReviewPage-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ReviewPage-title{
+    margin-top: 200px;
+}
+
+.ReviewPage-title h2{
+    color: #7950f2;
+    text-align: center;
+}
+
+.ReviewPage-title h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.Review-separator {
+    height: 2px;
+    background-color: black; 
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.Review-search{
+    display: flex;
+    
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.Review-search select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+    height: 44px;
+}
+.Review-search-input{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+}

@@ -1,0 +1,135 @@
+.Reservation-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Reservation-title {
+    margin-top: 200px;
+}
+
+.Reservation-title h2 {
+    color: #7950f2;
+    text-align: center;
+}
+
+.Reservation-title h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.Reservation-separator {
+    height: 2px;
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.Reservation-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Reservation-content-top {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.Reservation-content-photo {
+    width: 40%;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.Reservation-content-name {
+    width: 60%;
+    border: 1px solid black;
+}
+
+.Reservation-content-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.Reservation-content-price {
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+    height: 250px;
+}
+
+.Reservation-content-price-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Reservation-content-total {
+    border: 1px solid black;
+    border-left: none;
+    text-align: center;
+    width: 50%;
+    height: 250px;
+    
+}
+
+.Reservation-price-info {
+    display: flex;
+}
+
+.Reservation-content-info {
+    margin-top: 20px;
+}
+
+.Reservation-client-DetailInfo {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.Reservation-client-DetailInfo div {
+    width: 150px;
+    font-weight: bold;
+}
+
+.Reservation-client-DetailInfo input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.Reservation-client-Info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Reservation-content-below{
+    margin-bottom: 50px;
+}
+
+.Reservation-Terms{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.Reservation-Terms-container{
+    margin-bottom: 50px;
+}
+
+.Reservation-content-detailInfo div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

@@ -1,0 +1,255 @@
+.Schedule-container{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.schedule-navi{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.schedule-navi li{
+    cursor: pointer;
+}
+
+.first-box{
+    display: flex;
+    border: 1px solid rgb(209, 209, 209);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.first-box img{
+    width: 70px;
+    margin-right: 60px;
+}
+
+.first-box-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second-box{
+    border: 1px solid rgb(209, 209, 209);
+    margin-top: 50px;
+    
+}
+
+.day1-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.day1-flight{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.day1-detail{
+    padding: 20px;
+}
+
+.day1-detail img{
+    width: 70px;
+    margin-right: 60px;
+}
+
+.day1-detail-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.day1-detail div div{
+    margin-right: 80px;
+}
+
+.day1-detail-info{
+    font-size: 0.8rem;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.day1-detail-content{
+    background-color: rgb(233, 232, 232);
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+.day1-detail-hotel{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.day1-detail-hotel-info{
+    font-size: 0.8rem;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.day1-detail-restaurant{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.day1-detail-meal{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.day2-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(209, 209, 209);
+    border-top: 1px solid rgb(209, 209, 209);;
+}
+
+.day2-flight{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.day2-detail{
+    padding: 20px;
+}
+
+.day2-detail img{
+    width: 70px;
+    margin-right: 60px;
+}
+
+.day2-detail-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+
+.day2-detail div div{
+    
+}
+
+.day2-detail-info{
+    font-size: 0.8rem;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.day2-detail-title-sub{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.day2-detail-title-subMain{
+    display: flex;
+    justify-content: space-between;
+}
+.day2-detail-title-sub hr{
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, gray 33%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 10px 10px;
+    background-repeat: repeat-x;
+    margin: 10px 0;
+}
+.day2-detail-title-image{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.day2-detail-match1{
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.day2-detail-match1 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.day2-detail-match1 img{
+    width: 150px;
+    margin: 0 30px;
+}
+.day2-detail-content{
+    background-color: rgb(233, 232, 232);
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+.day2-detail-hotel{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.day2-detail-hotel-info{
+    font-size: 0.8rem;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.day2-detail-restaurant{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.day2-detail-meal{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.day6-detail-title{
+    display: flex;
+    align-items: center;
+    
+}
