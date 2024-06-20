@@ -30,5 +30,7 @@ vite를 사용해봤습니다!
 https://github.com/twtwkim/project.React/assets/160206273/8ac7ee34-7cbc-460c-827d-93ea86dad652
 
 ### 3. /register (회원등록)
+https://github.com/twtwkim/project.React/assets/160206273/badfd426-f8c5-4e37-9fa2-be46f4c00a70
 
 ### 4. /login (로그인, 로그아웃)
+https://github.com/twtwkim/project.React/assets/160206273/29e1aa52-2bb0-476f-b20d-206d2899181e
