@@ -39,4 +39,4 @@ https://github.com/twtwkim/project.React/assets/160206273/29e1aa52-2bb0-476f-b20
 https://github.com/twtwkim/project.React/assets/160206273/e8553faf-d676-4534-9cab-c370dbc0f464
 
 ### 6. /detail (상품별 세부 내용)
-https://github.com/twtwkim/project.React/assets/160206273/8393b185-f8c9-4fbe-9954-0a649659841f
+https://github.com/twtwkim/project.React/assets/160206273/c7aa1226-ad88-487f-9d04-b649f8c3fefc
