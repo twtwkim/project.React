@@ -25,3 +25,6 @@ vite를 사용해봤습니다!
   
   사용언어 및 개발환경
 - React.js, AWS, EC2, Koa, MongoDB
+
+### 2. /main
+https://github.com/twtwkim/project.React/assets/160206273/8ac7ee34-7cbc-460c-827d-93ea86dad652
