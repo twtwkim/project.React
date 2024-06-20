@@ -43,3 +43,12 @@ https://github.com/twtwkim/project.React/assets/160206273/c7aa1226-ad88-487f-9d0
 
 ### 7. /review (후기 페이지)
 https://github.com/twtwkim/project.React/assets/160206273/c6c2b89a-9a45-4e01-b0eb-725a2840ef15
+
+### 8. /write (후기 작성, 수정, 삭제)
+https://github.com/twtwkim/project.React/assets/160206273/79f9af30-0c9b-4af4-a954-f5a1bc714028
+
+### 9. /brand (브랜드 소개 페이지)
+https://github.com/twtwkim/project.React/assets/160206273/eff0a5f1-f8a0-40b5-a632-783568873fc2
+
+### 10. /customer (고객 문의 접수 페이지)
+https://github.com/twtwkim/project.React/assets/160206273/16480e02-72ff-4f25-b5b9-d4df050af822
