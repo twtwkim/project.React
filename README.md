@@ -2,7 +2,8 @@
 
 React 프로젝트 프론트엔드 코드입니다.  
 vite를 사용해봤습니다!
-[포트폴리오.pdf](https://github.com/user-attachments/files/15910524/default.pdf)
+
+🖱🖱<[포트폴리오.pdf 다운](https://github.com/user-attachments/files/15910524/default.pdf)>
 
 ### 1. Introduce Project
 
