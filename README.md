@@ -34,3 +34,9 @@ https://github.com/twtwkim/project.React/assets/160206273/badfd426-f8c5-4e37-9fa
 
 ### 4. /login (로그인, 로그아웃)
 https://github.com/twtwkim/project.React/assets/160206273/29e1aa52-2bb0-476f-b20d-206d2899181e
+
+### 5. /content (상품 안내 페이지)
+https://github.com/twtwkim/project.React/assets/160206273/e8553faf-d676-4534-9cab-c370dbc0f464
+
+### 6. /detail (상품별 세부 내용)
+https://github.com/twtwkim/project.React/assets/160206273/8393b185-f8c9-4fbe-9954-0a649659841f
