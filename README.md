@@ -40,3 +40,6 @@ https://github.com/twtwkim/project.React/assets/160206273/e8553faf-d676-4534-9ca
 
 ### 6. /detail (상품별 세부 내용)
 https://github.com/twtwkim/project.React/assets/160206273/c7aa1226-ad88-487f-9d04-b649f8c3fefc
+
+### 7. /review (후기 페이지)
+https://github.com/twtwkim/project.React/assets/160206273/c6c2b89a-9a45-4e01-b0eb-725a2840ef15
