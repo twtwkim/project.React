@@ -5,7 +5,7 @@ vite를 사용해봤습니다!
 
 🖱🖱<[포트폴리오.pdf 다운](https://github.com/user-attachments/files/15910524/default.pdf)>
 
-### 1. Introduce Project
+## 1. Introduce Project
 
 ✨작업 기간: 2024. 05 ~ 2024. 06 (2개월)
 
@@ -26,29 +26,35 @@ vite를 사용해봤습니다!
 ✨사용언어 및 개발환경
 - React.js, AWS, EC2, Koa, MongoDB
 
-### 2. /main (메인페이지)
+## 2. Detail of Project
+### 2-1. /main (메인페이지)
 https://github.com/twtwkim/project.React/assets/160206273/8ac7ee34-7cbc-460c-827d-93ea86dad652
 
-### 3. /register (회원등록)
+### 2-2. /register (회원등록)
 https://github.com/twtwkim/project.React/assets/160206273/badfd426-f8c5-4e37-9fa2-be46f4c00a70
 
-### 4. /login (로그인, 로그아웃)
+### 2-3. /login (로그인, 로그아웃)
 https://github.com/twtwkim/project.React/assets/160206273/29e1aa52-2bb0-476f-b20d-206d2899181e
 
-### 5. /content (상품 안내 페이지)
+### 2-4. /content (상품 안내 페이지)
 https://github.com/twtwkim/project.React/assets/160206273/e8553faf-d676-4534-9cab-c370dbc0f464
 
-### 6. /detail (상품별 세부 내용)
+### 2-5. /detail (상품별 세부 내용)
 https://github.com/twtwkim/project.React/assets/160206273/c7aa1226-ad88-487f-9d04-b649f8c3fefc
 
-### 7. /review (후기 페이지)
+### 2-6. /review (후기 페이지)
 https://github.com/twtwkim/project.React/assets/160206273/c6c2b89a-9a45-4e01-b0eb-725a2840ef15
 
-### 8. /write (후기 작성, 수정, 삭제)
+### 2-7. /write (후기 작성, 수정, 삭제)
 https://github.com/twtwkim/project.React/assets/160206273/79f9af30-0c9b-4af4-a954-f5a1bc714028
 
-### 9. /brand (브랜드 소개 페이지)
+### 2-8. /brand (브랜드 소개 페이지)
 https://github.com/twtwkim/project.React/assets/160206273/eff0a5f1-f8a0-40b5-a632-783568873fc2
 
-### 10. /customer (고객 문의 접수 페이지)
+### 2-9. /customer (고객 문의 접수 페이지)
 https://github.com/twtwkim/project.React/assets/160206273/16480e02-72ff-4f25-b5b9-d4df050af822
+
+## 3. Future Improvements
+### 3-1. 각종 SNS RESTful API와 연동하여 로그인 및 백엔드 단과 데이터 및 토큰 관리 
+### 3-2. 후기 작성간 첨부된 사진을 데이터베이스에 저장하여, 후기 페이지에서 썸네일로 출력
+### 3-3. 예약하기 버튼 클릭시 모달 대신 결제시스템 API 연동
