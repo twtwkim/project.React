@@ -18,7 +18,7 @@ vite를 사용해봤습니다!
 
   주요 업무
 - 서비스 기획부터 프론트엔드 기능 구현
-- Koa 프레임워크를 활용한 백엔드 서버 구현
+- Koa 프레임워크를 활용한 백엔드 서버 구현(https://github.com/twtwkim/project.React-Server.git)
 - MongoDB를 활용한 데이터 저장 및 관리(회원가입, 로그인, 글 작성)
   
   사용언어 및 개발환경
